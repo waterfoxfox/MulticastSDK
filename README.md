@@ -264,7 +264,7 @@ typedef struct VideoFrameInforMulticast
 } VideoFrameInforMulticast;
 模块内部会获得当前码流的宽、高、帧率、VPS（HEVC时）、SPS、PPS告知外层，当其中某些参数发生变更时将置位bInfoUpdated以通知外层。
 bPacketLost与bKeyFrame变量可用于外层实现丢帧冻结机制，bPacketLost表示当前帧是否接收完整，若网络丢包且FEC未能恢复时，该标志将置位。bKeyFrame表示当前帧是否为IDR关键帧。默认情况下内部已开启丢包冻结机制，外层可忽略bPacketLost与bKeyFrame。
-当没有丢包发生时，本函数的输出与对方调用SDTerminalP2P_SendVideoData函数的输入完全一致。
+当没有丢包发生时，本函数的输出与对方调用SDTerminalMulticast_SendVideoData函数的输入完全一致。
 返回值：无
 说明：SDK内部将在独立于网络接收线程之外的线程中调用本接口，所以外层可以将相对耗时的操作（比如解码）放置在此回调中。
 
