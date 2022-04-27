@@ -300,7 +300,7 @@ typedef struct AudioFrameInforMulticast
 ---
 # 参考
 H3C路由器：20170420-H3C MSR WiNet系列路由器 配置指导(V7)-R0605-6W200
----
+
 # SDK下载
 SDK下载及定制化服务可联系：[http://www.mediapro.cc/](http://www.mediapro.cc/)
 
