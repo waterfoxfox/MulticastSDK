@@ -5,7 +5,7 @@
 # 极简音视频组播SDK
 
 
-作为一种与单播（Unicast）和广播（Broadcast）并列的通信方式，组播（Multicast）技术能够有效地解决单点发送、多点接收的问题，从而实现了网络中点到多点的高效数据传送，能够节约大量网络带宽、降低网络负载。常见基于组播的音视频应用有同屏教学、校园广播等。组播基于UDP传输，因此同样面临UDP传输常见的乱序、丢包、重复等挑战，本SDK主要为传统UDP组播增加FEC前向纠错、NACK丢包重传、Qos、JitterBuff等功能，为开发音视频组播应用提供快速解决方案。
+作为一种与单播（Unicast）和广播（Broadcast）并列的通信方式，组播（Multicast）技术能够有效地解决单点发送、多点接收的问题，从而实现了网络中点到多点的高效数据传送，能够节约大量网络带宽、降低网络负载。常见基于组播的音视频应用有同屏教学、校园广播等。组播基于UDP传输，因此同样面临UDP传输常见的乱序、丢包、重复等挑战，本SDK主要为传统UDP组播增加FEC前向纠错、NACK丢包重传、Qos、JitterBuff等功能，为开发音视频组播应用提供易用、稳定的解决方案。
 
 本音视频组播SDK，支持特性：
 * 1、	支持基于RS编码的FEC前向纠错，专为音视频类应用量身定制。
@@ -298,6 +298,8 @@ typedef struct AudioFrameInforMulticast
 # 参考
 H3C路由器：20170420-H3C MSR WiNet系列路由器 配置指导(V7)-R0605-6W200
 
-# SDK下载
-SDK下载及定制化服务可联系：[http://www.mediapro.cc/](http://www.mediapro.cc/)
+# 更多
+
+内置编解码功能的组播SDK：[https://github.com/waterfoxfox/MulticastCodecSDK](https://github.com/waterfoxfox/MulticastCodecSDK)
+SDK 技术支持及定制化服务可联系：[http://www.mediapro.cc/](http://www.mediapro.cc/)
 
