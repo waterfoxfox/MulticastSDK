@@ -298,6 +298,10 @@ typedef struct AudioFrameInforMulticast
 # 参考
 H3C路由器：20170420-H3C MSR WiNet系列路由器 配置指导(V7)-R0605-6W200
 
+# DEMO源码
+https://github.com/waterfoxfox/SDT-Multicast-FileSendDemo <br>
+https://github.com/waterfoxfox/SDT-Multicast-FileRecvDemo <br>
+
 # 更多
 
 内置编解码功能的组播SDK：[https://github.com/waterfoxfox/MulticastCodecSDK](https://github.com/waterfoxfox/MulticastCodecSDK) <br>
