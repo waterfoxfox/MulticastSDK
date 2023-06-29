@@ -307,4 +307,5 @@ https://github.com/waterfoxfox/SDT-Multicast-FileRecvDemo <br>
 内置编解码功能的组播SDK：[https://github.com/waterfoxfox/MulticastCodecSDK](https://github.com/waterfoxfox/MulticastCodecSDK) <br>
 API DEMOS：[https://github.com/waterfoxfox/MulticastDemos](https://github.com/waterfoxfox/MulticastDemos) <br>
 SDK 技术支持及定制化服务可联系：[http://www.mediapro.cc/](http://www.mediapro.cc/)
+更多代码资源见： https://mediapro.apifox.cn/
 
